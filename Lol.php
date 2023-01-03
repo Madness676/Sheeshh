@@ -1,11 +1,9 @@
 <?php
 
-$username = $_POST['Panda'];
-$password = $_POST['Hub'];
+$password = $_POST['Panda'];
 
-if ($username == "myusername" && $password == "mypassword") {
+if ($password == "mypassword") {
     echo "Success";
 } else {
     echo "Invalid credentials";
 }
-
